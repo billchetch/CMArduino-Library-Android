@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../AppFrameworkLib/appframework" />
+            <option value="$PROJECT_DIR$/../AppResourcesLib/appresources" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/cmarduino" />
+            <option value="$PROJECT_DIR$/../ChetchMessagingTest/messaging" />
+            <option value="$PROJECT_DIR$/../Utils/utilities" />
+            <option value="$PROJECT_DIR$/../WebservicesTest/webservices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
