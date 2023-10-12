@@ -15,10 +15,10 @@ public class AOMessageSchema extends MessageSchema {
    }
 
    static public String statusCommand(String aoid){
-      return "adm:" + aoid + ":status";
+      return "adm:" + sanitiseID(aoid) + ":status";
    }
    static public String enableCommand(String aoid){
-      return "adm:" + aoid + ":enable";
+      return "adm:" + sanitiseID(aoid) + ":enable";
    }
 
    static public String fn(String fieldName){
